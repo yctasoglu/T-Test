@@ -12,7 +12,7 @@ The t score is a ratio between the difference between two groups and the differe
 
 data1 = [95,100,105,110,115,120] #1st Population
 
-data2 = [95,96,97,98,99,100,105,106] #1nd population
+data2 = [95,96,97,98,99,100,105,106] #2nd population
 
 #compare samples
 
