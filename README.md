@@ -13,5 +13,5 @@ The t score is a ratio between the difference between two groups and the differe
 ![](images/2020-04-05_15h57_40.png)
 
 
-# Output
+# Output for this case...
 ![](images/2020-04-05_15h55_25.png)
