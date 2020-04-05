@@ -26,7 +26,8 @@ The t score is a ratio between the difference between two groups and the differe
 	else:
 		print('Different distributions (reject H0)')
     
-	The interpretation of the statistic finds that the sample means are different, with a significance of at least 5%.
+	The interpretation of the statistic finds that the sample means are different,
+	with a significance of at least 5%.
 # Output
 	Statistics=2.1851, p=0.0494
 	Different distributions (reject H0)
