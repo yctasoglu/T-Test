@@ -7,26 +7,26 @@ The t score is a ratio between the difference between two groups and the differe
 
     A large t-score tells you that the groups are similar.
     A small t-score tells you that the groups are different.
+ 
+	# Example of T-Test
 
-# Example of T-Test
+	data1 = [95,100,105,110,115,120] #1st Population
 
-data1 = [95,100,105,110,115,120] #1st Population
-
-data2 = [95,96,97,98,99,100,105,106] #2nd population
+	data2 = [95,96,97,98,99,100,105,106] #2nd population
 
 #compare samples
 
-stat, p = ttest_ind(data1, data2)
-print('Statistics=%.4f, p=%.4f' % (stat, p))
+	stat, p = ttest_ind(data1, data2)
+	print('Statistics=%.4f, p=%.4f' % (stat, p))
 
 #interpret
-alpha = 0.050
-if p >= alpha:
-	print('Same distributions (fail to reject H0)')
-else:
-	print('Different distributions (reject H0)')
+	alpha = 0.050
+	if p >= alpha:
+		print('Same distributions (fail to reject H0)')
+	else:
+		print('Different distributions (reject H0)')
     
 #The interpretation of the statistic finds that the sample means are different, with a significance of at least 5%.
 # Output
-Statistics=2.1851, p=0.0494
-Different distributions (reject H0)
+	Statistics=2.1851, p=0.0494
+	Different distributions (reject H0)
